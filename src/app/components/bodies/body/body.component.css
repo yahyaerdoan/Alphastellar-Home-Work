@@ -1,0 +1,11 @@
+#color:hover{
+  background-color:rgba(219, 237, 248, 0.925);
+}
+
+#bigtitle:hover{
+  background-color:rgb(243, 235, 159);
+  border-radius: 4ch;
+  }
+#title:hover{
+  background-color:rgb(186, 253, 214);
+  }

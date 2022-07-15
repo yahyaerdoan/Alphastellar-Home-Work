@@ -1,12 +1,13 @@
+import { Validators } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder, FormControl, Validators } from "@angular/forms"
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
-  selector: 'app-body',
-  templateUrl: './body.component.html',
-  styleUrls: ['./body.component.css']
+  selector: 'app-second-body',
+  templateUrl: './second-body.component.html',
+  styleUrls: ['./second-body.component.css']
 })
-export class BodyComponent implements OnInit {
+export class SecondBodyComponent implements OnInit {
   isValid = false;
   isAnyValid = false;
   alphaForm: FormGroup;
@@ -49,4 +50,5 @@ export class BodyComponent implements OnInit {
     this.alphaForm.reset();
     this.isAnyValid = true;
   }
+
 }
